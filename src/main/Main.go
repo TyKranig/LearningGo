@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/tylerkranig/life"
+)
+
 // cannot use colon syntax here
 // vars can be declared in packages
 var (
@@ -39,5 +43,9 @@ func testMain() {
 	// k = strconv.Itoa(m)
 	// fmt.Println(k + " k is this")
 
-	maps()
+	// maps()
+}
+
+func main() {
+	life.Run(400, 300)
 }
