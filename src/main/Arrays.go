@@ -12,10 +12,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"golang.org/x/tour/pic"
-	"golang.org/x/tour/reader"
-	"golang.org/x/tour/wc"
 )
 
 func arrays() {
@@ -197,7 +193,7 @@ func arrays() {
 		fmt.Printf("2**%d = %d\n", index, element)
 	}
 
-	pic.Show(Pic)
+	// pic.Show(Pic)
 }
 
 func Pic(dx, dy int) [][]uint8 {
@@ -283,7 +279,7 @@ func maps() {
 	v, ok := m2["Answer"]
 	fmt.Println("The value:", v, "Present?", ok)
 
-	wc.Test(WordCount)
+	// wc.Test(WordCount)
 
 	hypot := func(x, y float64) float64 {
 		return math.Sqrt(x*x + y*y)
@@ -697,7 +693,7 @@ func readermain() {
 			break
 		}
 	}
-	reader.Validate(MyReader{})
+	// reader.Validate(MyReader{})
 
 	s := strings.NewReader("Lbh penpxrq gur pbqr!")
 	reader := rot13Reader{s}
@@ -725,6 +721,6 @@ func imagetestingmain() {
 	fmt.Println(m.Bounds())
 	fmt.Println(m.At(0, 0).RGBA())
 
-	test := MyImage{800, 800}
-	pic.ShowImage(test)
+	// test := MyImage{800, 800}
+	// pic.ShowImage(test)
 }

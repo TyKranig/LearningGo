@@ -1,9 +1,5 @@
 package main
 
-import (
-	"github.com/tylerkranig/life"
-)
-
 // cannot use colon syntax here
 // vars can be declared in packages
 var (
@@ -47,5 +43,6 @@ func testMain() {
 }
 
 func main() {
-	life.Run(400, 300)
+	mainTreeCompare()
+	// life.Run(400, 300)
 }
