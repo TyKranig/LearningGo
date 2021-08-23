@@ -1,5 +1,5 @@
 // An implementation of Conway's Game of Life
-package life
+package main
 
 import (
 	"bytes"

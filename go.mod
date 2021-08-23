@@ -1,4 +1,4 @@
-module src/main
+module github.com/tylerkranig/main
 
 go 1.17
 
