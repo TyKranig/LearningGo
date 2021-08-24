@@ -43,6 +43,6 @@ func testMain() {
 }
 
 func main() {
-	mainTreeCompare()
+	mainMutex()
 	// life.Run(400, 300)
 }
